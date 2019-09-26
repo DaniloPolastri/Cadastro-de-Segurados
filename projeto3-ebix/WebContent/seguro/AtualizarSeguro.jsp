@@ -59,11 +59,7 @@
 					<div class="form-group row mt-3">
 						<label for="valor"
 							class=" col-sm-1 col-form-label col-form-label-sm">SEGURO:</label>
-						<div>
-							<input class="form-control form-control-sm ml-5 rounded-pill"
-								id="valor" name="txtId" placeholder="Serie" readonly
-								value="${obj.identificacao}" name="Seguro">
-						</div>
+						
 						<div>
 							<input class="form-control form-control-sm ml-5 rounded-pill"
 								id="valor" name="seguro" placeholder="Valor do Seguro"

@@ -34,7 +34,7 @@ public class SeguroServlet extends HttpServlet {
 				dao.alterar(s);
 				getServletContext().getRequestDispatcher("/seguro/listaSeguro").forward(req, resp);
 			}
-
+ 
 			req.setAttribute("msg", "Seguro cadastrado");
 
 		} catch (Exception e) {
